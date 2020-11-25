@@ -3,9 +3,9 @@
 		<h2 class="title"><span>About</span></h2>
 		<h3>Period</h3>
 		<p class="period">
-			<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20200711T16&p1=248" target="_blank" rel="noopener">07/11 07:00</a>
+			<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201205T00" target="_blank" rel="noopener">12/05 00:00</a>
 			-
-			<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20200712T16&p1=248" target="_blank" rel="noopener">07/12 07:00</a>
+			<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201207T00" target="_blank" rel="noopener">12/07 00:00</a>
 		</p>
 		<p :style="{textAlign: 'center'}">(UTC)</p>
 		<h3>Socials</h3>
@@ -23,50 +23,49 @@
 			</li>
 			<li>
 				<timeline
-					id="tsgctf"
+					id="pb_ctf"
 					source-type="profile"
 					:options="{tweetLimit: '3', theme: 'dark', height: '500'}"
 				>
-					<a href="https://twitter.com/tsgctf" target="_blank" rel="noopener">Tweets from @tsgctf</a>
+					<a href="https://twitter.com/pb_ctf" target="_blank" rel="noopener">Tweets from @pb_ctf</a>
 				</timeline>
 			</li>
 		</ul>
 		<h3>Prizes</h3>
 		<ul>
-			<li>1st: 513.31 USD</li>
-			<li>2nd: 213.31 USD</li>
-			<li>3rd: 113.31 USD</li>
+			<li>1st: TBD</li>
+			<li>2nd: TBD</li>
+			<li>3rd: TBD</li>
 		</ul>
-		<h3>Sponsor</h3>
-		<a href="https://flatt.tech/" target="_blank" rel="noopener">
-			<img src="https://ctf.tsg.ne.jp/images/flatt_image.png">
+		<h3>Sponsors</h3>
+		<a href="https://vector35.com" target="_blank" rel="noopener">
+			<img src="https://vector35.com/images/vectortextwide.png">
 		</a>
-		<p>Flatt Security Inc. is a cyber security startup based in Tokyo, Japan.</p>
-		<p>We provide security assessments and other cyber security services and have been also developing security software for client companies.</p>
-		<p>We are hiring engineers. Please contact to <a href="mailto:contact@flatt.tech">contact@flatt.tech</a> or <a href="https://flatt.tech/contact">https://flatt.tech/contact</a></p>
+		<p>Vector 35 makes <a href="https://binary.ninja">Binary Ninja</a></p>
+		<p>If you're interested in building reverse engineering tools, contact us at </p>
+		<p><a href="https://vector35.com/hiring.html">https://vector35.com/hiring.html</a></p>
 		<h3>Staffs</h3>
-		<a href="https://tsg.ne.jp/" target="_blank" rel="noopener">
-			<img src="https://tsg.ne.jp/images/tsg-logo.png">
+		<a href="https://perfect.blue" target="_blank" rel="noopener">
+			<img src="https://blog.perfect.blue/img/logo.png" height=300 width=150>
 		</a>
 		<p>
-			pbctf is organized by <a href="https://tsg.ne.jp/" target="_blank" rel="noopener">TSG</a>, the official computer society of The
-			University of Tokyo.
+			pbctf is organized by <a href="https://perfect.blue" target="_blank" rel="noopener">perfect blue</a>
 		</p>
-		<p>Below is the full list of TSG members who contributed to this pbctf in success. So many thanks!!</p>
+		<p>Below is the full list of perfect blue members (and guests) who contributed to this pbctf edition. Many thanks to their efforts!</p>
 		<ul>
-			<li><a href="https://twitter.com/hakatashi" target="_blank" rel="noopener">@hakatashi</a></li>
-			<li><a href="https://twitter.com/moratorium08" target="_blank" rel="noopener">@moratorium08</a></li>
-			<li><a href="https://twitter.com/smallkirby_" target="_blank" rel="noopener">@smallkirby_</a></li>
-			<li><a href="https://twitter.com/naan112358" target="_blank" rel="noopener">@naan112358</a></li>
-			<li><a href="https://twitter.com/satos___jp" target="_blank" rel="noopener">@satos___jp</a></li>
-			<li><a href="https://twitter.com/kcz146" target="_blank" rel="noopener">@kcz146</a></li>
-			<li><a href="https://twitter.com/y0n3uchy" target="_blank" rel="noopener">@y0n3uchy</a></li>
-			<li><a href="https://twitter.com/coil_kpc" target="_blank" rel="noopener">@coil_kpc</a></li>
-			<li><a href="https://twitter.com/JP3BGY" target="_blank" rel="noopener">@JP3BGY</a></li>
-			<li><a href="https://twitter.com/hideo54" target="_blank" rel="noopener">@hideo54</a></li>
-			<li><a href="https://twitter.com/gh_end_" target="_blank" rel="noopener">@gh_end_</a></li>
-			<li><a href="https://twitter.com/sitositositoo" target="_blank" rel="noopener">@sitositositoo</a></li>
-			<li><a href="https://twitter.com/pizzacat83" target="_blank" rel="noopener">@pizzacat83</a></li>
+			<li><a href="https://twitter.com/ret2jazzy" target="_blank" rel="noopener">@ret2jazzy</a></li>
+			<li><a href="https://twitter.com/aaditya_purani" target="_blank" rel="noopener">@aaditya_purani</a></li>
+			<li><a href="https://twitter.com/gf_256" target="_blank" rel="noopener">@gf_256</a></li>
+			<li><a href="https://twitter.com/sampriti0" target="_blank" rel="noopener">@sampriti0</a></li>
+			<li><a href="https://twitter.com/_neptunia_" target="_blank" rel="noopener">@_neptunia_</a></li>
+			<li><a href="https://twitter.com/wcbowling" target="_blank" rel="noopener">@wcbowling</a></li>
+			<li><a href="https://twitter.com/kidofarcrania" target="_blank" rel="noopener">@kidofarcrania</a></li>
+			<li><a href="https://twitter.com/0x464c457f" target="_blank" rel="noopener">@0x464c457f</a></li>
+			<li><a href="https://twitter.com/RBTree_" target="_blank" rel="noopener">@RBTree_</a></li>
+			<li><a href="https://twitter.com/Corb3nik" target="_blank" rel="noopener">@Corb3nik</a></li>
+			<li><a href="https://twitter.com/_VoidMercy" target="_blank" rel="noopener">@_VoidMercy</a></li>
+			<li><a href="https://twitter.com/bemusicscript" target="_blank" rel="noopener">@bemusicscript</a></li>
+			<li><a href="https://twitter.com/Unblvr1" target="_blank" rel="noopener">@Unblvr1</a></li>
 		</ul>
 	</section>
 </template>

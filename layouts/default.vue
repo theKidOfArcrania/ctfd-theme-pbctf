@@ -80,6 +80,9 @@
 						<iso-link to="/about">About</iso-link>
 					</div>
 					<div class="menu-item">
+						<iso-link to="/rules">Rules</iso-link>
+					</div>
+					<div class="menu-item">
 						<iso-link to="/scoreboard">Scoreboard</iso-link>
 					</div>
 					<div class="menu-item">
@@ -95,17 +98,21 @@
 			<nuxt/>
 		</div>
 		<div class="footer">
-			<p class="flatt-line">
+			<p class="v35-line">
 				Sponsored by
-				<a href="https://flatt.tech/" target="_blank" rel="noopener">
-					<img class="flatt" src="../static/flatt.png" alt="flatt Security">
-				</a>
-				<a href="https://jpninfo.com/4905" target="_blank" rel="noopener">
-					<img class="ojigineko" src="../static/ojigineko-white.gif" alt="ojigineko">
+				<a href="https://vector35.com/" target="_blank" rel="noopener">
+					<img class="v35" src="../static/v35.png" alt="vector35">
 				</a>
 			</p>
-			<p>Organized by <a href="https://tsg.ne.jp/" target="_blank" rel="noopener">TSG</a>, a student team from The University of Tokyo</p>
+			<p class="gcloud-line"> 
+				Infra sponsored by
+				<a href="https://g.co/cloud" target="_blank" rel="noopener">
+					<img class="gcloud" src="../static/gcloud.png" alt="google cloud">
+				</a>
+			</p>
+			<p>Organized by <a href="https://pefect.blue/" target="_blank" rel="noopener">perfect blue</a></p>
 			<p>Powered by <a href="https://ctfd.io/" target="_blank" rel="noopener">CTFd</a></p>
+			<p>Theme base by TSG CTF</p>
 		</div>
 	</div>
 </template>
@@ -405,7 +412,7 @@ section > h2.title {
 	span {
 		color: rgb(0, 150, 250);
 		-webkit-text-fill-color: transparent;
-		background: linear-gradient(90deg, rgb(151, 77, 255) 0%, rgb(41, 210, 119) 100%);
+		background: linear-gradient(90deg, rgb(226, 196, 47) 0%, rgb(52, 128, 228) 100%);
 		background-clip: text;
 		font-weight: 500;
 	}
@@ -431,7 +438,7 @@ section > h2.title {
 		color: #90cbff;
 	}
 
-	.flatt-line {
+	.v35-line {
 		line-height: 3.5rem;
 
 		&::before {
@@ -442,25 +449,28 @@ section > h2.title {
 		}
 	}
 
-	.flatt {
+	.v35 {
 		vertical-align: middle;
 		width: 18rem;
 	}
 
-	.ojigineko {
-		background: url('../static/ojigineko-white.gif');
-		background-size: cover;
-		display: inline-block;
-		width: 1rem;
-		height: 1rem;
-		opacity: 0;
-		vertical-align: -28%;
-		transition: opacity 0.2s;
+	.gcloud {
+		vertical-align: middle;
+		width: 18rem;
 	}
 
-	.flatt-line:hover .ojigineko {
-		opacity: 0.3;
+	.gcloud-line {
+		line-height: 3.5rem;
+
+		&::before {
+			content: '';
+			display: inline-block;
+			width: 1rem;
+			height: 1rem;
+		}
 	}
+
+
 }
 
 .table-wrap {

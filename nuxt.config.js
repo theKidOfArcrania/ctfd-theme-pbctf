@@ -20,21 +20,21 @@ export default {
 			{
 				name: 'description',
 				hid: 'description',
-				content: 'pbctf is an on-line CTF organized by TSG, the official computer society of The University of Tokyo',
+				content: 'pbctf is a premier Capture the Flag event organized by perfect blue',
 			},
 			{name: 'apple-mobile-web-app-title', content: 'pbctf'},
 			{name: 'og:title', content: 'pbctf'},
 			{name: 'og:site_name', content: 'pbctf'},
-			{name: 'og:description', content: 'pbctf is an on-line CTF organized by TSG, the official computer society of The University of Tokyo'},
+			{name: 'og:description', content: 'pbctf is a premier Capture the Flag event organized by perfect blue'},
 			{name: 'og:type', content: 'website'},
-			{name: 'og:url', content: 'https://score.ctf.tsg.ne.jp'},
-			{name: 'og:image', content: `${staticBase}/ogimage.jpg`},
+			{name: 'og:url', content: 'https://ctf.perfect.blue'},
+			{name: 'og:image', content: `${staticBase}/ogimage.png`},
 			{name: 'twitter:card', content: 'summary'},
-			{name: 'twitter:site', content: '@tsg_ut'},
+			{name: 'twitter:site', content: '@pb_ctf'},
 			{name: 'twitter:title', content: 'pbctf'},
 			{
 				name: 'twitter:description',
-				content: 'pbctf is an on-line CTF organized by TSG, the official computer society of The University of Tokyo',
+				content: 'pbctf is a premier Capture the Flag event organized by perfect blue',
 			},
 			{name: 'twitter:image', content: `${staticBase}/ogimage.jpg`},
 			{name: 'twitter:image:alt', content: 'pbctf'},
@@ -66,20 +66,20 @@ export default {
 			if (!isStatic) {
 				return [];
 			}
-			const {data} = await axios.get('https://score.ctf.tsg.ne.jp/api/v1/teams');
+			const {data} = await axios.get('http://ctf.perfect.blue/api/v1/teams');
 			return data.data.map(({id}) => `/teams/${id}`);
 		},
 		concurrency: 5,
 	},
 
 	axios: {
-		baseURL: 'https://score.ctf.tsg.ne.jp/',
+		baseURL: 'http://ctf.perfect.blue/',
 		browserBaseURL: '/',
 	},
 
 	oneSignal: {
 		init: {
-			appId: '6acee8f3-7842-4a55-91f6-b63ac21a667d', // public token
+			appId: '37f6f0f0-e195-43ba-9fc8-d08702e11484', // public token
 			allowLocalhostAsSecureOrigin: true,
 		},
 	},
