@@ -25,11 +25,16 @@ $ npm install
 # when you use this please serve patched CTFd server as below at localhost:8000
 $ npm run dev
 
-# build the theme into tsgctf directory
+# Run this initially to setup the ctfdist directory (to allow version
+# controlling of the ctfdist directory on the dist branch)
+git clone https://github.com/perfectblue/ctfd-theme-pbctf.git -b dist ctfdist
+
+# build the theme into ctfdist directory
 $ npm run build
 
 # build static website
 $ SESSION=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx npm run generate
+
 ```
 
 Following patch is required during development (don't do this in production):
