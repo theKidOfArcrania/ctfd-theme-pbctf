@@ -65,7 +65,7 @@ export default {
 	},
 	head() {
 		return {
-			title: 'Create Team - TSG CTF',
+			title: 'Create Team - pbctf',
 		};
 	},
 };

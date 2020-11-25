@@ -1,8 +1,9 @@
 <template>
 	<section class="Index">
 		<div class="index-content">
-			<h1 class="ctf-logo">TSG CTF</h1>
-			<p class="subtitle">Pwn, Rev, Web, Crypto, etc...</p>
+			<h1 class="ctf-logo">pbctf</h1>
+			<br>
+			<p class="subtitle">Premier Capture the Flag event organized by perfect blue</p>
 			<div class="timer">{{timer}}</div>
 			<div v-if="!isLoggedIn" class="buttons">
 				<iso-link to="/login" class="button login">Login</iso-link>
@@ -16,8 +17,8 @@
 import IsoLink from '~/components/IsoLink.vue';
 import {mapState} from 'vuex';
 
-const contestStart = new Date('2020-07-11T07:00:00Z').getTime();
-const contestEnd = new Date('2020-07-12T07:00:00Z').getTime();
+const contestStart = new Date('2020-12-05T00:00:00Z').getTime();
+const contestEnd = new Date('2020-12-07T00:00:00Z').getTime();
 
 export default {
 	components: {IsoLink},
@@ -60,7 +61,7 @@ export default {
 	},
 	head() {
 		return {
-			title: 'TSG CTF',
+			title: 'pbctf',
 		};
 	},
 };
@@ -80,12 +81,12 @@ export default {
 	}
 
 	.ctf-logo {
-		font-family: 'Fredoka One', cursive;
+		font-family: 'Roboto', cursive;
 		font-size: 8rem;
 		font-weight: 300;
 		color: rgb(0, 150, 250);
 		-webkit-text-fill-color: transparent;
-		background: linear-gradient(90deg, rgb(151, 77, 255) 0%, rgb(41, 210, 119) 100%);
+		background: linear-gradient(90deg, rgb(59, 47, 226) 0%, rgb(52, 128, 228) 100%);
 		background-clip: text;
 		display: block;
 		letter-spacing: 1px;
@@ -117,7 +118,7 @@ export default {
 		line-height: 2.6rem;
 		border-radius: 9999px;
 		font-size: 1.5rem;
-		font-family: 'Fredoka One', cursive;
+		font-family: 'Roboto', cursive;
 		font-weight: 300;
 
 		&.login {

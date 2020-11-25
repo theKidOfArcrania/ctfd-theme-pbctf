@@ -20,7 +20,7 @@ export default {
 	},
 	head() {
 		return {
-			title: 'Rules - TSG CTF',
+			title: 'Rules - pbctf',
 		};
 	},
 };
@@ -29,7 +29,7 @@ export default {
 <style>
 .Rules {
 	h1, h2, h3 {
-		font-family: 'Fredoka One', cursive;
+		font-family: 'Roboto', cursive;
 		font-weight: 300;
 		text-align: center;
 		text-transform: uppercase;

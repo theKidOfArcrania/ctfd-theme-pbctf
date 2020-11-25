@@ -84,7 +84,7 @@ export default {
 	},
 	head() {
 		return {
-			title: 'Register - TSG CTF',
+			title: 'Register - pbctf',
 		};
 	},
 };
@@ -129,7 +129,7 @@ export default {
 
 	.error {
 		font-size: 1.5rem;
-		font-family: 'Fredoka One', cursive;
+		font-family: 'Roboto', cursive;
 		font-weight: 300;
 
 		color: #f44336;

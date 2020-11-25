@@ -49,10 +49,10 @@
 			<img src="https://tsg.ne.jp/images/tsg-logo.png">
 		</a>
 		<p>
-			TSG CTF is organized by <a href="https://tsg.ne.jp/" target="_blank" rel="noopener">TSG</a>, the official computer society of The
+			pbctf is organized by <a href="https://tsg.ne.jp/" target="_blank" rel="noopener">TSG</a>, the official computer society of The
 			University of Tokyo.
 		</p>
-		<p>Below is the full list of TSG members who contributed to this TSG CTF in success. So many thanks!!</p>
+		<p>Below is the full list of TSG members who contributed to this pbctf in success. So many thanks!!</p>
 		<ul>
 			<li><a href="https://twitter.com/hakatashi" target="_blank" rel="noopener">@hakatashi</a></li>
 			<li><a href="https://twitter.com/moratorium08" target="_blank" rel="noopener">@moratorium08</a></li>
@@ -78,7 +78,7 @@ export default {
 	components: {Timeline},
 	head() {
 		return {
-			title: 'About - TSG CTF',
+			title: 'About - pbctf',
 		};
 	},
 };
@@ -88,7 +88,7 @@ export default {
 .About {
 	h3 {
 		font-size: 2rem;
-		font-family: 'Fredoka One', cursive;
+		font-family: 'Roboto', cursive;
 		font-weight: 300;
 		text-align: center;
 		text-transform: uppercase;

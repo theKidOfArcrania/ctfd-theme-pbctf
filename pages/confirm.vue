@@ -43,7 +43,7 @@ export default {
 	},
 	head() {
 		return {
-			title: 'Confirmation Step - TSG CTF',
+			title: 'Confirmation Step - pbctf',
 		};
 	},
 };

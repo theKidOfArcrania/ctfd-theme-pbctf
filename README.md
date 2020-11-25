@@ -1,6 +1,6 @@
 # ctfd-theme-tsgctf
 
-Custom CTFd theme made for TSG CTF
+Custom CTFd theme made for pbctf
 
 ![](https://i.imgur.com/mXFHBrf.png)
 

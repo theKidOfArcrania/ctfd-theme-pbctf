@@ -44,7 +44,7 @@ export default {
 	},
 	head() {
 		return {
-			title: 'Team - TSG CTF',
+			title: 'Team - pbctf',
 		};
 	},
 };
@@ -71,7 +71,7 @@ export default {
 		line-height: 3rem;
 		border-radius: 9999px;
 		font-size: 1.5rem;
-		font-family: 'Fredoka One', cursive;
+		font-family: 'Roboto', cursive;
 		font-weight: 300;
 
 		&.join {

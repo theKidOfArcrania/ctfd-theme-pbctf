@@ -350,7 +350,7 @@ export default {
 	},
 	head() {
 		return {
-			title: 'Settings - TSG CTF',
+			title: 'Settings - pbctf',
 		};
 	},
 };
@@ -366,7 +366,7 @@ export default {
 
 	.subtitle {
 		font-size: 2rem;
-		font-family: 'Fredoka One', cursive;
+		font-family: 'Roboto', cursive;
 		font-weight: 300;
 		text-align: center;
 		text-transform: uppercase;
@@ -405,7 +405,7 @@ export default {
 
 	.result {
 		font-size: 1.5rem;
-		font-family: 'Fredoka One', cursive;
+		font-family: 'Roboto', cursive;
 		font-weight: 300;
 
 		.success {

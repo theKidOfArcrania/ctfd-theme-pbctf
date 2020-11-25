@@ -2,7 +2,7 @@
 	<div>
 		<div class="header">
 			<div class="title">
-				<iso-link to="/">TSG CTF 2020</iso-link>
+				<iso-link to="/">pbctf 2020</iso-link>
 			</div>
 			<div class="spacer"/>
 			<div v-if="isLoggedIn">
@@ -156,14 +156,14 @@ export default {
 	},
 	head() {
 		return {
-			title: 'TSG CTF',
+			title: 'pbctf',
 		};
 	},
 };
 </script>
 
 <style>
-@import 'https://fonts.googleapis.com/css?family=Fredoka+One|Roboto:100';
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
 
 html {
 	font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -251,7 +251,7 @@ button[type='submit'] {
 	height: 2.5rem;
 	border-radius: 9999px;
 	font-size: 1.5rem;
-	font-family: 'Fredoka One', cursive;
+	font-family: 'Roboto', cursive;
 	font-weight: 300;
 	background: linear-gradient(90deg, #3e91a6 0%, #5e0fa9 100%);
 }
@@ -300,7 +300,7 @@ tbody tr {
 	z-index: 1;
 
 	.title {
-		font-family: 'Fredoka One', cursive;
+		font-family: 'Roboto', cursive;
 		font-weight: 300;
 		font-size: 2rem;
 		display: block;
@@ -358,7 +358,7 @@ tbody tr {
 	}
 
 	.team-score {
-		font-family: 'Fredoka One', cursive;
+		font-family: 'Roboto', cursive;
 		font-weight: 300;
 	}
 
@@ -393,7 +393,7 @@ tbody tr {
 
 section > h2.title {
 	font-size: 4rem;
-	font-family: 'Fredoka One', cursive;
+	font-family: 'Roboto', cursive;
 	font-weight: 300;
 	text-align: center;
 	text-transform: uppercase;

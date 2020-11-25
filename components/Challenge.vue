@@ -130,7 +130,7 @@ export default {
 				return 'Contest has been ended';
 			}
 
-			return 'TSGCTF{......}';
+			return 'pbctf{......}';
 		},
 		async onSubmitFlag(event) {
 			event.preventDefault();
@@ -204,7 +204,7 @@ export default {
 
 	.title {
 		font-size: 2.5rem;
-		font-family: 'Fredoka One', cursive;
+		font-family: 'Roboto', cursive;
 		font-weight: 300;
 		display: inline-block;
 		letter-spacing: 1px;
@@ -423,7 +423,7 @@ export default {
 			animation: Gradient 3s ease-out 1 both;
 			color: white;
 			font-size: 2rem;
-			font-family: 'Fredoka One', cursive;
+			font-family: 'Roboto', cursive;
 			font-weight: 300;
 
 			@keyframes Gradient {

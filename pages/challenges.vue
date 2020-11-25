@@ -5,7 +5,7 @@
 			<input id="checkbox" v-model="isHideSolved" type="checkbox">
 			<label for="checkbox">Hide solved</label>
 		</div>
-		<div v-if="isEnded" class="ended">TSG CTF has been ended!<br>Thank you for your pariticipation!</div>
+		<div v-if="isEnded" class="ended">pbctf has been ended!<br>Thank you for your pariticipation!</div>
 		<div v-if="isStarted">
 			<div v-for="category in categories" :key="category.name" class="category">
 				<h3 class="category-name">{{category.name}}</h3>
@@ -137,7 +137,7 @@ export default {
 	},
 	head() {
 		return {
-			title: 'Challenges - TSG CTF',
+			title: 'Challenges - pbctf',
 		};
 	},
 };
@@ -162,7 +162,7 @@ export default {
 
 	.ended {
 		font-size: 2rem;
-		font-family: 'Fredoka One', cursive;
+		font-family: 'Roboto', cursive;
 		font-weight: 300;
 		text-align: center;
 		text-transform: uppercase;
@@ -208,7 +208,7 @@ export default {
 	.not-started {
 		text-align: center;
 		font-size: 2.5rem;
-		font-family: 'Fredoka One', cursive;
+		font-family: 'Roboto', cursive;
 		font-weight: 300;
 		padding: 0;
 		margin-top: 6rem;

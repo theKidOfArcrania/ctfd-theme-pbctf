@@ -28,7 +28,7 @@ export default {
 	},
 	head() {
 		return {
-			title: 'Notifications - TSG CTF',
+			title: 'Notifications - pbctf',
 		};
 	},
 };
@@ -70,7 +70,7 @@ export default {
 	.no-notification {
 		text-align: center;
 		font-size: 2.5rem;
-		font-family: 'Fredoka One', cursive;
+		font-family: 'Roboto', cursive;
 		font-weight: 300;
 		padding: 0;
 		line-height: 2rem;
