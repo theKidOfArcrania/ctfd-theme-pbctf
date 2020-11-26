@@ -163,9 +163,12 @@ export default {
 
 <style>
 .Challenge {
-	margin-bottom: 10px;
-	display: flex;
-	text-align: left;
+    margin-bottom: 10px;
+    display: flex;
+    text-align: left;
+    background: rgba(0,0,0,.2);
+    border-radius: .5rem;
+
 
 	.list-marker {
 		flex: 0 0 48px;
@@ -264,6 +267,7 @@ export default {
 		border-radius: 1rem;
 		position: relative;
 		border-top-right-radius: 0;
+		margin-right: 2rem;
 	}
 
 	.solves {

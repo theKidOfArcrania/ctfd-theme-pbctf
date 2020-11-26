@@ -412,7 +412,8 @@ section > h2.title {
 	span {
 		color: rgb(0, 150, 250);
 		-webkit-text-fill-color: transparent;
-		background: linear-gradient(90deg, rgb(226, 196, 47) 0%, rgb(52, 128, 228) 100%);
+		/*background: linear-gradient(90deg, rgb(226, 196, 47) 0%, rgb(52, 128, 228) 100%);*/
+		background: #90cbff;
 		background-clip: text;
 		font-weight: 500;
 	}
