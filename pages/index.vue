@@ -3,7 +3,7 @@
 		<div class="index-content">
 			<h1 class="ctf-logo">pbctf</h1>
 			<br>
-			<p class="subtitle">Premier Capture the Flag event organized by perfect blue</p>
+			<p class="subtitle">pbctf is perfect blue's premiere capture the flag event</p>
 			<div class="timer">{{timer}}</div>
 			<div v-if="!isLoggedIn" class="buttons">
 				<iso-link to="/login" class="button login">Login</iso-link>
@@ -84,9 +84,10 @@ export default {
 		font-family: 'Roboto', cursive;
 		font-size: 8rem;
 		font-weight: 300;
-		color: rgb(0, 150, 250);
+	/*	color: rgb(0, 150, 250);*/
+		color: rgb(217, 186, 69);
 		-webkit-text-fill-color: transparent;
-		background: linear-gradient(90deg, rgb(59, 47, 226) 0%, rgb(52, 128, 228) 100%);
+		background: linear-gradient(90deg, rgb(217, 186, 69) 0%,rgb(201, 155, 6) 100%);
 		background-clip: text;
 		display: block;
 		letter-spacing: 1px;
@@ -101,7 +102,8 @@ export default {
 		font-family: 'Roboto', sans-serif;
 		font-size: 1.5rem;
 		margin-top: -1rem;
-		opacity: 0.3;
+		opacity: 1;
+		color: rgb(255, 255, 255)
 	}
 
 	.buttons {

@@ -74,6 +74,11 @@ export default {
 </script>
 
 <style>
+
+.scoreboard{
+background: rgba(0, 0, 0, .2);
+}
+
 .Scoreboard {
 	table .place {
 		padding-right: 1rem;
@@ -99,5 +104,9 @@ export default {
 	tr.active {
 		background: rgba(255, 0, 0, 0.3);
 	}
+
+	table a {
+    color: rgb(255, 205, 25);
+}
 }
 </style>

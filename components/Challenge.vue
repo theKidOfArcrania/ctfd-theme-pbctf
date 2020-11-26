@@ -211,12 +211,12 @@ export default {
 		cursor: pointer;
 	}
 
-	.title-name {
-		color: rgb(82, 186, 255);
-		-webkit-text-fill-color: transparent;
-		background: linear-gradient(90deg, rgb(151, 77, 255) 0%, rgb(41, 210, 119) 100%);
-		background-clip: text;
-	}
+.title-name {
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg,#ffdb4d,#ffff00);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
 
 	.points {
 		background: rgba(255, 255, 255, 0.6);

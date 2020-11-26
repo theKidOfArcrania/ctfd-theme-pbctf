@@ -19,43 +19,7 @@
 			</div>
 		</div>
 		<div v-else class="not-started">
-			<p>Hang tight!</p>
-			<p class="protip">
-				ProTip: We listen to
-				<a
-					v-if="melody === 0"
-					href="https://www.youtube.com/watch?v=d_T1StgldnM"
-					target="_blank"
-					rel="noopener"
-				>
-					the aesthetic Iwashi melody
-				</a>
-				<a
-					v-if="melody === 1"
-					href="https://www.youtube.com/watch?v=ceyr4ezheOg"
-					target="_blank"
-					rel="noopener"
-				>
-					the comfortable Maguro melody
-				</a>
-				<a
-					v-if="melody === 2"
-					href="https://www.youtube.com/watch?v=C9PFVo1FEwU"
-					target="_blank"
-					rel="noopener"
-				>
-					the cozy Yatsume melody
-				</a>
-				<a
-					v-if="melody === 3"
-					href="https://www.youtube.com/watch?v=ok7UX3utzvI"
-					target="_blank"
-					rel="noopener"
-				>
-					the intoxicant Kurage melody
-				</a>
-				to tune up our mind. Follow us?
-			</p>
+			<p>CTF has not started yet. Stay Tuned!</p>
 		</div>
 	</section>
 </template>
@@ -213,17 +177,6 @@ export default {
 		padding: 0;
 		margin-top: 6rem;
 		line-height: 2rem;
-	}
-
-	.protip {
-		font-family: 'Roboto';
-		font-size: 1rem;
-		margin-top: 2rem;
-		opacity: 0.3;
-
-		a {
-			color: cyan;
-		}
 	}
 }
 </style>

@@ -181,7 +181,7 @@ html {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 	box-sizing: border-box;
-	background-image: url('../static/background.svg'), radial-gradient(circle, #06151b 0%, #040414 100%);
+	background-image: url('../static/background.png'), radial-gradient(circle, #06151b 0%, #040414 100%);
 	background-color: #130414;
 	background-size: cover;
 	background-position: center;
