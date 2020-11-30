@@ -109,14 +109,15 @@ export default {
 			return components[components.length - 1];
 		},
 		getFileLink(path) {
-			if (!this.isStatic) {
-				return path;
-			}
+      console.log('static: ' + this.isStatic);
+			//if (!this.isStatic) {
+			//	return path;
+			//}
 
 			const components = new URL(path, location.href).pathname.split('/');
 			const fileName = components[components.length - 1];
 			const challengeId = components[components.length - 2];
-			return `https://tsgctf-ctfd-storage.storage.googleapis.com/tsgctf-ctfd-storage/${challengeId}/${fileName}`;
+			return `https://storage.googleapis.com/pbctf-ctfd-storage/${challengeId}/${fileName}`;
 		},
 		getSolvesText(solves) {
 			return `${solves} ${solves === 1 ? 'solve' : 'solves'}`;

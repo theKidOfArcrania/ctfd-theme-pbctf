@@ -5,6 +5,7 @@ const klaw = require('klaw');
 
 const templates = [
 	'base.html',
+	'challenge.html',
 	'challenges.html',
 	'confirm.html',
 	'errors/403.html',
@@ -52,11 +53,11 @@ const templates = [
 	walker.on('data', async (item) => {
 		if (!item.stats.isDirectory() && !item.path.endsWith('.html')) {
 			const newPath = item.path.includes('_nuxt')
-				? path.join(distPath('static'), path.relative(path.join(__dirname, 'dist/themes/tsgctf/static'), item.path))
+				? path.join(distPath('static'), path.relative(path.join(__dirname, 'dist/themes/pbctf/static'), item.path))
 				: path.join(distPath('static'), path.relative(path.join(__dirname, 'dist'), item.path));
 			if (item.path.endsWith('OneSignalSDKWorker.js')) {
 				const worker = await fs.readFile(item.path);
-				const newWorker = worker.toString().replace('/sw.js', '/themes/tsgctf/static/sw.js');
+				const newWorker = worker.toString().replace('/sw.js', '/themes/pbctf/static/sw.js');
 				await fs.outputFile(newPath, newWorker);
 			} else {
 				fs.copy(item.path, newPath);

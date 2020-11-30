@@ -1,4 +1,4 @@
-# ctfd-theme-tsgctf
+# ctfd-theme-pbctf
 
 Custom CTFd theme made for pbctf
 
@@ -8,12 +8,12 @@ Custom CTFd theme made for pbctf
 
 ```
 cd /path/to/CTFd
-git clone https://github.com/tsg-ut/ctfd-theme-tsgctf.git themes/tsgctf -b dist
+git clone https://github.com/perfectblue/ctfd-theme-pbctf.git themes/pbctf -b dist
 ```
 
 ## Related projects
 
-* [ctfd-plugin-tsgctf](https://github.com/tsg-ut/ctfd-plugin-tsgctf)
+* [ctfd-plugin-pbctf](https://github.com/perfectblue/ctfd-plugin-pbctf)
 
 ## Development
 

@@ -7,10 +7,10 @@ const proxy = createProxyMiddleware({
 
 const isStatic = process.env.NUXT_ENV_STATIC === 'true';
 
-const staticBase = (process.env.NODE_ENV === 'development' || isStatic) ? '' : '/themes/tsgctf/static';
+const staticBase = (process.env.NODE_ENV === 'development' || isStatic) ? '' : '/themes/pbctf/static';
 
 export default {
-	mode: isStatic ? 'universal' : 'spa',
+	ssr: isStatic,
 
 	head: {
 		title: 'pbctf',
@@ -55,9 +55,9 @@ export default {
 		'@nuxtjs/axios',
 		'@nuxtjs/markdownit',
 		'@nuxtjs/pwa',
-		...(isStatic ? [] : [
-			'@nuxtjs/onesignal',
-		]),
+//		...(isStatic ? [] : [
+//			'@nuxtjs/onesignal',
+//		]),
 	],
 
 	generate: {
@@ -77,12 +77,12 @@ export default {
 		browserBaseURL: '/',
 	},
 
-	oneSignal: {
-		init: {
-			appId: '37f6f0f0-e195-43ba-9fc8-d08702e11484', // public token
-			allowLocalhostAsSecureOrigin: true,
-		},
-	},
+//	oneSignal: {
+//		init: {
+//			appId: '37f6f0f0-e195-43ba-9fc8-d08702e11484', // public token
+//			allowLocalhostAsSecureOrigin: true,
+//		},
+//	},
 
 	markdownit: {
 		injected: true,
