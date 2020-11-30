@@ -47,7 +47,7 @@
 		<p><a href="https://vector35.com/hiring.html">https://vector35.com/hiring.html</a></p>
 		<h3>Staffs</h3>
 		<a href="https://perfect.blue" target="_blank" rel="noopener">
-			<img src="https://blog.perfect.blue/img/logo.png" height=300 width=150>
+			<img src="https://blog.perfect.blue/img/logo.png">
 		</a>
 		<p>
 			pbctf is organized by <a href="https://perfect.blue" target="_blank" rel="noopener">perfect blue</a>
