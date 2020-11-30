@@ -46,13 +46,14 @@
 		</a>
 		<p>Vector 35 makes <a href="https://binary.ninja">Binary Ninja</a></p>
 		<p>If you're interested in building reverse engineering tools, contact us at </p>
-		<p><a href="https://vector35.com/hiring.html">https://vector35.com/hiring.html</a></p>
+		<p><a href="https://vector35.com/hiring.html">https://vector35.com/hiring.html</a>.</p>
 		<h3>Staff</h3>
 		<a href="https://perfect.blue" target="_blank" rel="noopener">
 			<img class=logo src="https://blog.perfect.blue/img/logo.png">
 		</a>
 		<p>
-			pbctf is organized by <a href="https://perfect.blue" target="_blank" rel="noopener">perfect blue</a>
+			pbctf is organized by <a href="https://perfect.blue" target="_blank"
+      rel="noopener">perfect blue</a>.
 		</p>
 		<p>Below is the full list of perfect blue members (and guests) who contributed to this pbctf edition. Many thanks to their efforts!</p>
 		<ul>
@@ -135,11 +136,6 @@ export default {
 		}
 	}
 
-  .logo {
-    object-fit: cover;
-    border-radius: 50%;
-  }
-
 	img {
 		display: block;
 		margin: 0 auto;
@@ -147,6 +143,13 @@ export default {
 		max-width: 20rem;
 		margin-bottom: 1rem;
 	}
+
+  .logo {
+    object-fit: cover;
+    border-radius: 50%;
+		max-width: 10rem;
+  }
+
 
 	a {
 		color: #90cbff;
