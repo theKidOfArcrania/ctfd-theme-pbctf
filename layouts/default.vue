@@ -110,7 +110,7 @@
 					<img class="gcloud" src="../static/gcloud.png" alt="google cloud">
 				</a>
 			</p>
-			<p>Organized by <a href="https://pefect.blue/" target="_blank" rel="noopener">perfect blue</a></p>
+			<p>Organized by <a href="https://perfect.blue/" target="_blank" rel="noopener">perfect blue</a></p>
 			<p>Powered by <a href="https://ctfd.io/" target="_blank" rel="noopener">CTFd</a></p>
 			<p>Theme base by TSG CTF</p>
 		</div>
