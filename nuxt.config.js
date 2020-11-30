@@ -66,14 +66,14 @@ export default {
 			if (!isStatic) {
 				return [];
 			}
-			const {data} = await axios.get('http://ctf.perfect.blue/api/v1/teams');
+			const {data} = await axios.get('https://ctf.perfect.blue/api/v1/teams');
 			return data.data.map(({id}) => `/teams/${id}`);
 		},
 		concurrency: 5,
 	},
 
 	axios: {
-		baseURL: 'http://ctf.perfect.blue/',
+		baseURL: 'https://ctf.perfect.blue/',
 		browserBaseURL: '/',
 	},
 
