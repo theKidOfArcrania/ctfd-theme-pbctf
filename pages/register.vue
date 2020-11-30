@@ -42,7 +42,8 @@
 				>
 			</div>
 			<div>
-				Individual registration is recommended. You can create team account later.
+        You may choose to create a shared team or individual account here, (you
+        will still need to create a team account later).
 			</div>
 			<div v-if="isError" class="error">
 				Registration errored. Maybe username already taken?

@@ -5,20 +5,21 @@
 		<p class="period">
 			<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201205T00" target="_blank" rel="noopener">12/05 00:00</a>
 			-
-			<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201207T00" target="_blank" rel="noopener">12/07 00:00</a>
+			<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201206T1159" target="_blank" rel="noopener">12/06 23:59</a>
 		</p>
 		<p :style="{textAlign: 'center'}">(UTC)</p>
 		<h3>Socials</h3>
 		<ul class="socials">
 			<li>
 				<iframe
-					src="https://discord.com/widget?id=546339917459095552&theme=dark"
+					src="https://discord.com/widget?id=748672086838607943&theme=dark"
 					allowtransparency="true"
 					frameborder="0"
-					width="100%"
-					height="100%"
+					width="350"
+					height="500"
+          sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
 				>
-					<a href="https://discord.gg/xJn7v62" target="_blank" rel="noopener">Discord</a>
+					<a href="https://discord.gg/8BhEHts" target="_blank" rel="noopener">Discord</a>
 				</iframe>
 			</li>
 			<li>
