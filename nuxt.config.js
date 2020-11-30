@@ -39,7 +39,7 @@ export default {
 			{name: 'twitter:image', content: `${staticBase}/ogimage.jpg`},
 			{name: 'twitter:image:alt', content: 'pbctf'},
 		],
-		link: [{rel: 'icon', type: 'image/png', href: `${staticBase}/favicon.png`}],
+		link: [{rel: 'icon', type: 'image/png', href: `${staticBase}/icon.png`}],
 	},
 
 	loading: {color: '#fff'},
