@@ -85,6 +85,7 @@ export default {
 //	},
 
 	markdownit: {
+    html: true,
 		injected: true,
 	},
 
