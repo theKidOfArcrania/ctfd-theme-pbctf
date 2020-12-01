@@ -5,10 +5,9 @@
 		<p class="period">
 			<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201205T00" target="_blank" rel="noopener">12/05 00:00</a>
 			-
-			<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201206T1159" target="_blank" rel="noopener">12/06 23:59</a>
+			<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201206T1159" target="_blank" rel="noopener">12/06 23:59</a> <small>UTC</small>
 		</p>
-		<p :style="{textAlign: 'center'}">(UTC)</p>
-		<h3>Socials</h3>
+		<h3>Social</h3>
 		<ul class="socials">
 			<li>
 				<iframe
@@ -32,21 +31,28 @@
 				</timeline>
 			</li>
 		</ul>
-		<h3>Prizes*</h3>
+		<h3>Prizes</h3>
 		<ul>
 			<li>1st: 5 Binary Ninja personal licenses, $300 cash</li>
 			<li>2nd: 3 personal licenses, $200 cash</li>
 			<li>3rd: 1 personal license, $100 cash</li>
-      <li>1 personal license for best write-up using Binary Ninja Cloud</li>
-      <small>*May be subject to change</small>
+     		<li>1 personal license for best write-up using Binary Ninja Cloud</li>
+      		<small>* May be subject to change</small>
 		</ul>
+
 		<h3>Sponsors</h3>
+
+		<p style="display: block; margin: 0 auto; text-align: center;">
 		<a href="https://vector35.com" target="_blank" rel="noopener">
-			<img src="https://vector35.com/images/vectortextwide.png">
+			<img src="../static/v35.png" class="sponsor">
 		</a>
-		<p>Vector 35 makes <a href="https://binary.ninja">Binary Ninja</a></p>
-		<p>If you're interested in building reverse engineering tools, contact us at </p>
-		<p><a href="https://vector35.com/hiring.html">https://vector35.com/hiring.html</a>.</p>
+		<a href="https://vector35.com" target="_blank" rel="noopener">
+			<img src="../static/binja.png" class="sponsor">
+		</a>
+		</p>
+		<p>Vector 35 makes <a href="https://binary.ninja">Binary Ninja</a>.</p>
+		<p>If you're interested in building reverse engineering tools, <a href="https://vector35.com/hiring.html">contact us</a>.
+		
 		<h3>Staff</h3>
 		<a href="https://perfect.blue" target="_blank" rel="noopener">
 			<img class=logo src="https://blog.perfect.blue/img/logo.png">
@@ -56,7 +62,7 @@
       rel="noopener">perfect blue</a>.
 		</p>
 		<p>Below is the full list of perfect blue members (and guests) who contributed to this pbctf edition. Many thanks to their efforts!</p>
-		<ul>
+		<ul class="credits">
 			<li><a href="https://twitter.com/ret2jazzy" target="_blank" rel="noopener">@ret2jazzy</a></li>
 			<li><a href="https://twitter.com/aaditya_purani" target="_blank" rel="noopener">@aaditya_purani</a></li>
 			<li><a href="https://twitter.com/gf_256" target="_blank" rel="noopener">@gf_256</a></li>
@@ -89,9 +95,11 @@ export default {
 
 <style>
 .About {
+	text-align: center;
+
 	h3 {
 		font-size: 2rem;
-		font-family: 'Roboto', cursive;
+		font-family: 'Roboto', sans-serif;
 		font-weight: 300;
 		text-align: center;
 		text-transform: uppercase;
@@ -118,6 +126,18 @@ export default {
 		line-height: 2rem;
 	}
 
+	p, h1,h2,h3 {
+		padding-bottom: 4pt;
+	}
+
+	ul.credits {
+		/*text-align: left;*/
+		list-style-type: none;
+		columns: 2;
+		-webkit-columns: 2;
+		-moz-columns: 2;
+	}
+
 	ul.socials {
 		display: flex;
 		justify-content: center;
@@ -137,20 +157,25 @@ export default {
 	}
 
 	img {
-		display: block;
+		display: inline-block;
 		margin: 0 auto;
 		width: 80vw;
 		max-width: 20rem;
 		margin-bottom: 1rem;
 	}
 
-  .logo {
-    object-fit: cover;
-    border-radius: 50%;
+	img.sponsor {
+		display: inline;
+		height: 80px;
+		max-width: unset;
+		width: auto;
+	}
+
+	.logo {
+		object-fit: cover;
+		border-radius: 50%;
 		max-width: 10rem;
-  }
-
-
+	}
 	a {
 		color: #90cbff;
 	}
