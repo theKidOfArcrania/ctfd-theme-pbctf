@@ -112,7 +112,7 @@
 			</p>
 			<p>Organized by <a href="https://perfect.blue/" target="_blank" rel="noopener">perfect blue</a></p>
 			<p>Powered by <a href="https://ctfd.io/" target="_blank" rel="noopener">CTFd</a></p>
-			<p>Theme base by TSG CTF</p>
+			<p>Theme base by TSG CTF<img class="ojigineko" src="../static/ojigineko-white.gif" alt="ojigineko" width=14pt></p>
 		</div>
 	</div>
 </template>
