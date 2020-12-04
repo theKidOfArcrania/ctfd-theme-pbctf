@@ -65,7 +65,7 @@
 		<ul class="credits">
 			<li><a href="https://twitter.com/ret2jazzy" target="_blank" rel="noopener">@ret2jazzy</a></li>
 			<li><a href="https://twitter.com/aaditya_purani" target="_blank" rel="noopener">@aaditya_purani</a></li>
-			<li><a href="https://twitter.com/gf_256" target="_blank" rel="noopener">@gf_256</a></li>
+			<li><a href="https://twitter.com/gf_256" target="_blank" rel="noopener">@gf_256 (cts)</a></li>
 			<li><a href="https://twitter.com/sampriti0" target="_blank" rel="noopener">@sampriti0</a></li>
 			<li><a href="https://twitter.com/_neptunia_" target="_blank" rel="noopener">@_neptunia_</a></li>
 			<li><a href="https://twitter.com/wcbowling" target="_blank" rel="noopener">@wcbowling</a></li>
