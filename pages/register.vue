@@ -85,7 +85,7 @@ export default {
 	},
 	head() {
 		return {
-			title: 'Register - pbctf',
+			title: 'Register - CSG CTF Workshop',
 		};
 	},
 };

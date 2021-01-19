@@ -75,7 +75,7 @@ export default {
 	},
 	head() {
 		return {
-			title: 'Login - pbctf',
+			title: 'Login - CSG CTF Workshop',
 		};
 	},
 };

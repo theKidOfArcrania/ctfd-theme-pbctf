@@ -30,7 +30,7 @@ export default {
 	},
 	head() {
 		return {
-			title: 'Reset Password - pbctf',
+			title: 'Reset Password - CSG CTF Workshop',
 		};
 	},
 };

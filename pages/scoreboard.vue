@@ -67,7 +67,7 @@ export default {
 	},
 	head() {
 		return {
-			title: 'Scoreboard - pbctf',
+			title: 'Scoreboard - CSG CTF Workshop',
 		};
 	},
 };

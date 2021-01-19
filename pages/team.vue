@@ -44,7 +44,7 @@ export default {
 	},
 	head() {
 		return {
-			title: 'Team - pbctf',
+			title: 'Team - CSG CTF Workshop',
 		};
 	},
 };

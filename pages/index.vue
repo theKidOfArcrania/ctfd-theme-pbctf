@@ -1,9 +1,9 @@
 <template>
 	<section class="Index">
 		<div class="index-content">
-			<h1 class="ctf-logo">pbctf</h1>
+			<h1 class="ctf-logo">CSG CTF Workshop</h1>
 			<br>
-			<p class="subtitle">pbctf is perfect blue's premiere capture the flag event</p>
+			<p class="subtitle">Challenges for UTDCSG's CTF workshop</p>
 			<div class="timer">{{timer}}</div>
 			<div v-if="!isLoggedIn" class="buttons">
 				<iso-link to="/login" class="button login">Login</iso-link>
@@ -61,7 +61,7 @@ export default {
 	},
 	head() {
 		return {
-			title: 'pbctf',
+			title: 'CSG CTF Workshop',
 		};
 	},
 };

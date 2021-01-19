@@ -350,7 +350,7 @@ export default {
 	},
 	head() {
 		return {
-			title: 'Settings - pbctf',
+			title: 'Settings - CSG CTF Workshop',
 		};
 	},
 };

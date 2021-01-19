@@ -2,13 +2,17 @@
 	<section class="About">
 		<h2 class="title"><span>About</span></h2>
 		<h3>Period</h3>
+    <!--
 		<p class="period">
 			<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201205T00" target="_blank" rel="noopener">12/05 00:00</a>
 			-
 			<a href="https://www.timeanddate.com/worldclock/fixedtime.html?iso=20201206T1159" target="_blank" rel="noopener">12/06 23:59</a> <small>UTC</small>
 		</p>
+    -->
+
 		<h3>Social</h3>
 		<ul class="socials">
+    <!--
 			<li>
 				<iframe
 					src="https://discord.com/widget?id=748672086838607943&theme=dark"
@@ -30,16 +34,12 @@
 					<a href="https://twitter.com/pb_ctf" target="_blank" rel="noopener">Tweets from @pb_ctf</a>
 				</timeline>
 			</li>
+      -->
 		</ul>
 		<h3>Prizes</h3>
-		<ul>
-			<li>1st: 5 Binary Ninja personal licenses, $300 cash</li>
-			<li>2nd: 3 personal licenses, $200 cash</li>
-			<li>3rd: 1 personal license, $100 cash</li>
-     		<li>1 personal license for best write-up using Binary Ninja Cloud</li>
-      		<small>* May be subject to change</small>
-		</ul>
+    <p> TBA </p>
 
+<!--
 		<h3>Sponsors</h3>
 
 		<p style="display: block; margin: 0 auto; text-align: center;">
@@ -53,7 +53,10 @@
 		<p>Vector 35 makes <a href="https://binary.ninja">Binary Ninja</a>.</p>
 		<p>If you're interested in building reverse engineering tools, <a href="https://vector35.com/hiring.html">contact us</a>.
 		
+-->
+
 		<h3>Staff</h3>
+<!--
 		<a href="https://perfect.blue" target="_blank" rel="noopener">
 			<img class=logo src="https://blog.perfect.blue/img/logo.png">
 		</a>
@@ -77,6 +80,7 @@
 			<li><a href="https://twitter.com/bemusicscript" target="_blank" rel="noopener">@bemusicscript</a></li>
 			<li><a href="https://twitter.com/Unblvr1" target="_blank" rel="noopener">@Unblvr1</a></li>
 		</ul>
+-->
 	</section>
 </template>
 
@@ -87,7 +91,7 @@ export default {
 	components: {Timeline},
 	head() {
 		return {
-			title: 'About - pbctf',
+			title: 'About - CSG CTF Workshop',
 		};
 	},
 };

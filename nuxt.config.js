@@ -13,23 +13,23 @@ export default {
 	ssr: isStatic,
 
 	head: {
-		title: 'pbctf',
+		title: 'CSG CTF Workshop',
 		meta: [
 			{charset: 'utf-8'},
 			{name: 'viewport', content: 'width=device-width, initial-scale=1'},
 			{
 				name: 'description',
 				hid: 'description',
-				content: "pbctf is perfect blue's premiere capture the flag event",
+				content: "Challenges for CSG's CTF workshop",
 			},
-			{name: 'apple-mobile-web-app-title', content: 'pbctf'},
-			{name: 'og:title', content: 'pbctf'},
-			{name: 'og:site_name', content: 'pbctf'},
-			{name: 'og:description', content: "pbctf is perfect blue's premiere capture the flag event"},
+			{name: 'apple-mobile-web-app-title', content: 'CSG CTF Workshop'},
+			{name: 'og:title', content: 'CSG CTF Workshop'},
+			{name: 'og:site_name', content: 'CSG CTF Workshop'},
+			{name: 'og:description', content: "Challenges for CSG's CTF workshop"},
 			{name: 'og:type', content: 'website'},
-			{name: 'og:url', content: 'https://ctf.perfect.blue'},
+			{name: 'og:url', content: 'https://csg.utdallas.edu'},
 			{name: 'og:image', content: `${staticBase}/ogimage.png`},
-			{name: 'twitter:card', content: 'summary'},
+/*			{name: 'twitter:card', content: 'summary'},
 			{name: 'twitter:site', content: '@pb_ctf'},
 			{name: 'twitter:title', content: 'pbctf'},
 			{
@@ -37,7 +37,7 @@ export default {
 				content: "pbctf is perfect blue's premiere capture the flag event",
 			},
 			{name: 'twitter:image', content: `${staticBase}/ogimage.jpg`},
-			{name: 'twitter:image:alt', content: 'pbctf'},
+			{name: 'twitter:image:alt', content: 'pbctf'},*/
 		],
 		link: [{rel: 'icon', type: 'image/png', href: `${staticBase}/icon.png`}],
 	},

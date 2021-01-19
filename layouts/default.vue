@@ -2,7 +2,7 @@
 	<div>
 		<div class="header">
 			<div class="title">
-				<iso-link to="/">pbctf 2020</iso-link>
+				<iso-link to="/">CSG CTF Workshop</iso-link>
 			</div>
 			<div class="spacer"/>
 			<div v-if="isLoggedIn">
@@ -98,6 +98,7 @@
 			<nuxt/>
 		</div>
 		<div class="footer">
+      <!--
 			<p class="v35-line">
 				Sponsored by
 				<a href="https://vector35.com/" target="_blank" rel="noopener">
@@ -110,7 +111,8 @@
 					<img class="gcloud" src="../static/gcloud.png" alt="google cloud">
 				</a>
 			</p>
-			<p>Organized by <a href="https://perfect.blue/" target="_blank" rel="noopener">perfect blue</a></p>
+      -->
+			<p>Organized by <a href="https://csg.utdallas.edu/" target="_blank" rel="noopener">UTDCSG</a></p>
 			<p>Powered by <a href="https://ctfd.io/" target="_blank" rel="noopener">CTFd</a></p>
 			<p>Theme base by TSG CTF<img class="ojigineko" src="../static/ojigineko-white.gif" alt="ojigineko" width=14pt></p>
 		</div>
@@ -163,7 +165,7 @@ export default {
 	},
 	head() {
 		return {
-			title: 'pbctf',
+			title: 'CSG CTF Workshop',
 		};
 	},
 };
@@ -181,7 +183,7 @@ html {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 	box-sizing: border-box;
-	background-image: url('../static/background.png'), radial-gradient(circle, #06151b 0%, #040414 100%);
+	background-image: url('../static/background.gif'), radial-gradient(circle, #06151b 0%, #040414 100%);
 	background-color: #130414;
 	background-size: cover;
 	background-position: center;

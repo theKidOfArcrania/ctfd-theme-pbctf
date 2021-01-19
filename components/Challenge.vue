@@ -109,10 +109,9 @@ export default {
 			return components[components.length - 1];
 		},
 		getFileLink(path) {
-      console.log('static: ' + this.isStatic);
-			//if (!this.isStatic) {
-			//	return path;
-			//}
+			if (!this.isStatic) {
+				return path;
+			}
 
 			const components = new URL(path, location.href).pathname.split('/');
 			const fileName = components[components.length - 1];
@@ -131,7 +130,7 @@ export default {
 				return 'Contest has been ended';
 			}
 
-			return 'pbctf{......}';
+			return 'flag{......}';
 		},
 		async onSubmitFlag(event) {
 			event.preventDefault();
@@ -261,7 +260,7 @@ export default {
 		margin-top: 1rem;
 		margin-left: 0.5rem;
 		margin-bottom: 1.5rem;
-		background: rgba(255, 255, 255, 0.2);
+		background: rgba(0, 0, 0, 0.2);
 		padding: 1rem;
 		width: auto;
 		box-sizing: border-box;
