@@ -260,7 +260,7 @@ export default {
 		margin-top: 1rem;
 		margin-left: 0.5rem;
 		margin-bottom: 1.5rem;
-		background: rgba(0, 0, 0, 0.2);
+		background: rgba(108, 108, 108, 0.5);
 		padding: 1rem;
 		width: auto;
 		box-sizing: border-box;
