@@ -88,13 +88,13 @@ export default {
 		}
 
 		this.melody = Math.floor(Math.random() * 4);
-		if (!this.isStatic) {
-			this.interval = setInterval(() => {
-				this.$store.dispatch('updateDates', {$axios: this.$axios});
-				this.$store.dispatch('challenges/updateChallenges', {$axios: this.$axios});
-				this.$store.dispatch('challenges/updateChallengeSolves', {$axios: this.$axios});
-			}, 60 * 1000);
-		}
+		//if (!this.isStatic) {
+		//	this.interval = setInterval(() => {
+		//		this.$store.dispatch('updateDates', {$axios: this.$axios});
+		//		this.$store.dispatch('challenges/updateChallenges', {$axios: this.$axios});
+		//		this.$store.dispatch('challenges/updateChallengeSolves', {$axios: this.$axios});
+		//	}, 60 * 1000);
+		//}
 	},
 	destroyed() {
 		clearInterval(this.interval);
