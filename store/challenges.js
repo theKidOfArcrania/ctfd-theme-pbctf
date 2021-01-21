@@ -22,9 +22,10 @@ export const getters = {
 			challenges: challenges.sort((a, b) => a.value - b.value),
 		}))
 		.sort((a, b) => {
-			const orderA = categoryOrders.indexOf(a.name.toLowerCase());
-			const orderB = categoryOrders.indexOf(b.name.toLowerCase());
-			return (orderA === -1 ? 9999 : orderA) - (orderB === -1 ? 9999 : orderB);
+      return a.name.localeCompare(b.name)
+			//const orderA = categoryOrders.indexOf(a.name.toLowerCase());
+			//const orderB = categoryOrders.indexOf(b.name.toLowerCase());
+			//return (orderA === -1 ? 9999 : orderA) - (orderB === -1 ? 9999 : orderB);
 		}),
 };
 
