@@ -320,14 +320,27 @@ export default {
 		}
 
 		code {
-			background: #333;
+			background: #10333f;
 			padding: 0.1rem 0.5rem;
+      color: orange;
+      border-radius: .2em;
 		}
 
+    blockquote {
+      padding: .5em 1em .5em .75em;
+      border-left: 3px white solid;
+      margin: .5em 1em;
+      display: block;
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+
 		pre {
-			background: #333;
+			background: #10333f;
+      border-radius: .2em;
 			padding: 0.5rem;
 			white-space: pre-line;
+      color: orange;
 
 			code {
 				background: transparent;
